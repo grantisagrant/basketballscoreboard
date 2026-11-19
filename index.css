@@ -3,9 +3,18 @@
     src: url(Fonts/CursedTimerUlil-Aznm.ttf);
 }
 
+.topline {
+    font-family: 'Graduate', sans-serif;
+    font-size: 2em; 
+    background-color: #C41424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     margin: 0;
-    background-color: #1B244A;
+    background-color: #004077;
     color: white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif
@@ -18,9 +27,9 @@ h3 {
 
 button {
     font-family: timer;
-    color: #9AABD8;
-    background: none;
-    border-color: 9AABD8;
+    color: white;
+    background: #C41424;
+    border-color: white;
     border-style: solid;
     border-radius: 5px;
     padding: 12px;
